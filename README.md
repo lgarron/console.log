@@ -12,6 +12,12 @@ For when you don't want to think about what language you're using, and just get 
 
 ## C++
 
-Implementation requires variadic templates.
+Implementation requires variadic templates (flag: `-std=c++11`).
 
     console.log("Value:", 2)
+
+## Run all
+
+```
+make test
+```
