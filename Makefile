@@ -2,6 +2,7 @@ LANGUAGES =
 LANGUAGES += cpp
 LANGUAGES += go
 LANGUAGES += js
+LANGUAGES += ruby
 
 .PHONY: test
 test: $(LANGUAGES)

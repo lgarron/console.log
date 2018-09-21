@@ -16,6 +16,11 @@ Implementation requires variadic templates (flag: `-std=c++11`).
 
     console.log("Value:", 2)
 
+
+## Ruby
+
+    console.log("Value:", 2)
+
 ## Run all
 
 ```
