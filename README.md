@@ -16,6 +16,9 @@ Implementation requires variadic templates (flag: `-std=c++11`).
 
     console.log("Value:", 2)
 
+## Python
+
+    console.log("Value:", 2)
 
 ## Ruby
 
