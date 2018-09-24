@@ -1,11 +1,11 @@
 package test;
 
-import console.Console;
+import console.console;
 
 public class Test {
     public static void main(String[] args) {
     	int[][] arr = {{1,2,3}, {4,5}};
     	String s = "Can print arrays too:";
-    	Console.log(s, arr);
+    	console.log(s, arr);
     }
 }
