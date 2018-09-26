@@ -1,3 +1,3 @@
 include("../console.jl")
 
-console.log("Value:", 1337)
+console.log("Julia:", 1337)
