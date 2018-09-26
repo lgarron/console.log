@@ -1,6 +1,7 @@
 LANGUAGES =
 LANGUAGES += cpp
 LANGUAGES += go
+LANGUAGES += java
 LANGUAGES += js
 LANGUAGES += julia
 LANGUAGES += python
