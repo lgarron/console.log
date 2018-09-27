@@ -2,7 +2,10 @@
 
 For when you don't want to think about what language you're using, and just get stuff onto the screen.
 
-    console.log("JavaScript:", 1337, [21, 22, "owl"], {"cat": 31, 32: "fox"});
+    arr = [21, 22, "owl"]
+    map = {"cat": 31, 32: "fox"}
+    
+    console.log("JavaScript:", 1337, arr, map)
 
 ## Languages
 
