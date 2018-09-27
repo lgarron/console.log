@@ -6,15 +6,15 @@ For when you don't want to think about what language you're using, and just get 
 
 ## Languages
 
-| Language   | Import                        | Usage                         |       |
-|------------|-------------------------------|-------------------------------|-------|
-| C++        | `#include "cpp/console.h"`    | `console.log("Value:", 1337)` | ¹     |
-| Go         | `import "./go/console"`       | `console.Log("Value:", 1337)` | ¹ ² ³ |
-| Java       | `import console.console;`     | `console.log("Value:", 1337)` | ⁴     |
-| JavaScript | N/A                           | `console.log("Value:", 1337)` |       |
-| Julia      | `include("julia/console.jl")` | `console.log("Value:", 1337)` |       |
-| Python     | `import console`              | `console.log("Value:", 1337)` | ²     |
-| Ruby       | `require "./ruby/console"`    | `console.log("Value:", 1337)` |       |
+| Language   | Import                        |       |
+|------------|-------------------------------|-------|
+| C++        | `#include "cpp/console.h"`    | ¹     |
+| Go         | `import "./go/console"`       | ¹ ² ³ |
+| Java       | `import console.console;`     | ⁴     |
+| JavaScript | N/A                           |       |
+| Julia      | `include("julia/console.jl")` |       |
+| Python     | `import console`              | ²     |
+| Ruby       | `require "./ruby/console"`    |       |
 
 ### Limitations
 
