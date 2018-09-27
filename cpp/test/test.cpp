@@ -2,5 +2,5 @@
 
 int main()
 {
-  console.log("C++:", 1337);
+  console.log("C++:", 1337, *new std::vector<int>{21, 22});
 }
