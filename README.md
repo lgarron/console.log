@@ -6,22 +6,22 @@ For when you don't want to think about what language you're using, and just get 
 
 ## Languages
 
-| Language   | Import                        | Usage                         |     |
-|------------|-------------------------------|-------------------------------|-----|
-| C++        | `#include "cpp/console.h"`    | `console.log("Value:", 1337)` | ¹   |
-| Go         | `import "./go/console"`       | `console.Log("Value:", 1337)` | ¹ ² |
-| Java       | `import console.console;`     | `console.log("Value:", 1337)` | ³ ⁴ |
-| JavaScript | N/A                           | `console.log("Value:", 1337)` |     |
-| Julia      | `include("julia/console.jl")` | `console.log("Value:", 1337)` |     |
-| Python     | `import console`              | `console.log("Value:", 1337)` | ²   |
-| Ruby       | `require "./ruby/console"`    | `console.log("Value:", 1337)` |     |
+| Language   | Import                        | Usage                         |       |
+|------------|-------------------------------|-------------------------------|-------|
+| C++        | `#include "cpp/console.h"`    | `console.log("Value:", 1337)` | ¹     |
+| Go         | `import "./go/console"`       | `console.Log("Value:", 1337)` | ¹ ² ³ |
+| Java       | `import console.console;`     | `console.log("Value:", 1337)` | ⁴     |
+| JavaScript | N/A                           | `console.log("Value:", 1337)` |       |
+| Julia      | `include("julia/console.jl")` | `console.log("Value:", 1337)` |       |
+| Python     | `import console`              | `console.log("Value:", 1337)` | ²     |
+| Ruby       | `require "./ruby/console"`    | `console.log("Value:", 1337)` |       |
 
 ### Limitations
 
 - ¹ Homogeneous arrays and maps only.
 - ² These languages don't support importing file paths. You have to modify the import path.
-- ³ Homogeneous arrays only.
-- ⁴ `console.Log` requires a capital `L` in Go.
+- ³ `console.Log` requires a capital `L` in Go.
+- ⁴ Homogeneous arrays only.
 
 If you know workarounds for these limitations (however hacky!), let me know.
 
