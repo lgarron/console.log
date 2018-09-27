@@ -1,4 +1,4 @@
-# console.log()
+# `console.log()`
 
 For when you don't want to think about what language you're using, and just get stuff onto the screen.
 
