@@ -25,7 +25,7 @@ For when you don't want to think about what language you're using, and just get 
 - ¹ Arrays and maps must be homogeneous, due to language type restrictions.
 - ² `console.Log` requires a capital `L` in Go.
 - ³ These languages don't support importing file paths. You have to modify the import path.
-- ⁴ `console.log()` with parentheses only accepts a single argument; `console.log[]` with braces is required for more. (Also, associate arrays break printing on the commandline in Mathematica 10. Old-fashioned lists of `Rule`s still work, though.)
+- ⁴ `console.log()` with parentheses only accepts a single argument; `console.log[]` with braces is required for more. (Also, associative arrays break printing on the commandline in Mathematica 10. Old-fashioned lists of `Rule`s still work, though.)
 
 If you know workarounds for these limitations (however hacky!), let me know.
 
