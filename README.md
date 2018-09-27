@@ -2,10 +2,10 @@
 
 For when you don't want to think about what language you're using, and just get stuff onto the screen.
 
-    arr = [21, 22, "owl"]
-    map = {"cat": 31, 32: "fox"}
+    arr = [21, -22, [23, 24], "owl", {"eagle": [25]}]
+    map = {"cat": [31, 32], "dog": 33, 34: "fox"}
 
-    console.log("JavaScript:", 1337, arr, map)
+    console.log("Values:", 1337, arr, map)
 
 ## Languages
 

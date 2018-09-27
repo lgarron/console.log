@@ -1,3 +1,5 @@
 import console
 
-console.log("Python:", 1337, [21, 22, "owl"], {"cat": 31, 32: "fox"})
+arr = [21, -22, [23, 24], "owl", {"eagle": [25]}]
+m = {"cat": [31, 32], "dog": 33, 34: "fox"}
+console.log("Python:", 1337, arr, m)

@@ -8,6 +8,6 @@ int main()
 {
   std::map<std::string, int> m;
   m["cat"] = 31;
-  m["dog"] = 33;
-  console.log("C++:", 1337, *new std::vector<int>{21, 22}, m);
+  m["dog"] = 34;
+  console.log("C++:", 1337, *new std::vector<int>{21, -22}, m);
 }

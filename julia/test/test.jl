@@ -1,3 +1,5 @@
 include("../console.jl")
 
-console.log("Julia:", 1337, [21, 22, "owl"], Dict("cat" => 31, 32 => "fox"))
+arr = [21, -22, [23, 24], "owl", Dict("eagle" => [25])];
+map = Dict("cat" => [31, 32], "dog" => 33, 34 => "fox")
+console.log("Julia:", 1337, arr, map)
