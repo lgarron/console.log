@@ -2,8 +2,8 @@
 test: Test.class
 	java Test
 
-# Mark `test` as `.PHONY` to force a build from scratch without listing deps.
-.PHONY: test
+# Mark `Test.class` as `.PHONY` to force a build from scratch without listing deps.
+.PHONY: Test.class
 Test.class: Test.java
 	javac $^
 
