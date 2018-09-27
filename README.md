@@ -9,8 +9,8 @@ For when you don't want to think about what language you're using, and just get 
 | Language   | Import                        | Usage                         |     |
 |------------|-------------------------------|-------------------------------|-----|
 | C++        | `#include "cpp/console.h"`    | `console.log("Value:", 1337)` | ¹   |
-| Go         | `import "./go/console"`       | `console.Log("Value:", 1337)` | ² ³ |
-| Java       | `import console.console;`     | `console.log("Value:", 1337)` | ⁴ ⁵ |
+| Go         | `import "./go/console"`       | `console.Log("Value:", 1337)` | ¹ ² |
+| Java       | `import console.console;`     | `console.log("Value:", 1337)` | ³ ⁴ |
 | JavaScript | N/A                           | `console.log("Value:", 1337)` |     |
 | Julia      | `include("julia/console.jl")` | `console.log("Value:", 1337)` |     |
 | Python     | `import console`              | `console.log("Value:", 1337)` | ²   |
@@ -18,11 +18,10 @@ For when you don't want to think about what language you're using, and just get 
 
 ### Limitations
 
-- ¹ Arrays, `std::vector`, `std::map`, etc. not supported right now.
+- ¹ Homogeneous arrays and maps only.
 - ² These languages don't support importing file paths. You have to modify the import path.
-- ³ Homogeneous arrays and maps only.
-- ⁴ Homogeneous arrays only.
-- ⁵ `console.Log` requires a capital `L` in Go.
+- ³ Homogeneous arrays only.
+- ⁴ `console.Log` requires a capital `L` in Go.
 
 If you know workarounds for these limitations (however hacky!), let me know.
 
@@ -32,7 +31,7 @@ If you know workarounds for these limitations (however hacky!), let me know.
 - Single `console.log()` call in lowercase
 - Multiple heterogeneous arguments can be passed to `console.log()`, inc. at the least the following types:
   - Primitive types: integer, string
-  - Array/list, preferably heterogeneous
+  - Array/list/vector, preferably heterogeneous
   - Map/dictionary/associative array, preferably heteregeneous key and value types
   - Any type in the language with an associated method to turn it into a string
 - Arguments are printed to `stdout` inline, with a space separator and a trailing newline
