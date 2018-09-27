@@ -9,16 +9,16 @@ For when you don't want to think about what language you're using, and just get 
 
 ## Languages
 
-| Language   | Import                            | Arrays        | Maps       | Limitations |
-|------------|---------------------------------- |---------------|------------|-----|
-| C++        | `#include "cpp/console.h"`        | `std::vector` | `std::map` | ¹ |
-| Go         | `import "./go/console"`           | ✅             | ✅          | ¹ ² |
-| Java       | `import console.console;`         | ✅             | [TODO](https://github.com/lgarron/console.log/issues/6) | ¹ ³ |
-| JavaScript | N/A                               | ✅             | ✅          | |
-| Julia      | `include("julia/console.jl")`     | ✅             | ✅          | |
-| Mathematica| `Import["mathematica/console.m"]` | ✅             | ✅          | ⁴ |
-| Python     | `import console`                  | ✅             | ✅          | ² |
-| Ruby       | `require "./ruby/console"`        | ✅             | ✅          | |
+| Language   | Hackiness | Import                            | Arrays        | Maps       | Limitations |
+|------------|-----------|---------------------------------- |---------------|------------|-----|
+| C++        | 🔥🔥        | `#include "cpp/console.h"`        | `std::vector` | `std::map` | ¹ |
+| Go         | 🔥         | `import "./go/console"`           | ✅             | ✅          | ¹ ² |
+| Java       | 🔥🔥        | `import console.console;`         | ✅             | [TODO](https://github.com/lgarron/console.log/issues/6) | ¹ ³ |
+| JavaScript |           | N/A                               | ✅             | ✅          | |
+| Julia      |           | `include("julia/console.jl")`     | ✅             | ✅          | |
+| Mathematica| 🔥🔥🔥       | `Import["mathematica/console.m"]` | ✅             | ✅          | ⁴ |
+| Python     |           | `import console`                  | ✅             | ✅          | ² |
+| Ruby       | 🔥         | `require "./ruby/console"`        | ✅             | ✅          | |
 
 ### Limitations
 
