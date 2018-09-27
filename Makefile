@@ -4,6 +4,7 @@ LANGUAGES += go
 LANGUAGES += java
 LANGUAGES += js
 LANGUAGES += julia
+LANGUAGES += mathematica
 LANGUAGES += python
 LANGUAGES += ruby
 
