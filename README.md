@@ -37,7 +37,7 @@ If you know workarounds for these limitations (however hacky!), let me know.
   - Primitive types: integer, string
   - Array/list/vector, preferably heterogeneous
   - Map/dictionary/associative array, preferably heteregeneous key and value types
-  - Any type in the language with an associated method to turn it into a string
+  - Any value in the language with an associated string serialization (e.g. a `toString()` implementation)
 - Arguments are printed to `stdout` inline, with a space separator and a trailing newline
   - Where possible (e.g. DevTools JS console), arguments are displayed semantically
 
