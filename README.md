@@ -17,7 +17,7 @@ For when you don't want to think about what language you're using, and just get 
 | JavaScript |           | N/A                               | ✅             | ✅          | |
 | Julia      |           | `include("julia/console.jl")`     | ✅             | ✅          | |
 | Mathematica| 🔥🔥🔥       | `Import["mathematica/console.m"]` | ✅             | ✅          | ⁴ |
-| Python     |           | `import console`                  | ✅             | ✅          | ² |
+| Python     |           | `import console`                  | ✅             | ✅          | ³ |
 | Ruby       | 🔥         | `require "./ruby/console"`        | ✅             | ✅          | |
 
 ### Limitations
