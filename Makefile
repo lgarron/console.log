@@ -8,6 +8,7 @@ LANGUAGES += julia
 LANGUAGES += mathematica
 LANGUAGES += python
 LANGUAGES += ruby
+LANGUAGES += rust
 
 .PHONY: test
 test: $(LANGUAGES)
