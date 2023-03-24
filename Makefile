@@ -1,5 +1,6 @@
 LANGUAGES =
 LANGUAGES += cpp
+LANGUAGES += fish
 LANGUAGES += go
 LANGUAGES += java
 LANGUAGES += js
